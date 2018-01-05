@@ -1,0 +1,74 @@
+/*css specificity*/
+/*csslint order-alphabetical: false*/
+/*csslint box-model:false*/
+/*a main menu-n belüli menü item*/
+/*
+.main-menu-item{
+    color:blue;
+    
+}
+*/
+
+/*
+.main-menu .main-menu-item
+{
+        color:black;
+}
+*/
+
+/*az az elem aminek mindkettő class-a megvan*/
+/*
+.main-menu-item .elso-menupont
+{
+    color:red;
+
+}*/
+main{
+    background-color: lightblue;
+/*    tudjuk hogy a padding megnöveli az elem szélességét*/
+    padding: 30px;
+    width: 900px;
+/*    padding-margin elso ertek alul-felul a masodik jobbra-balra*/
+
+    margin: 0 auto;
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    height: 25px;
+    
+}
+h1{
+    font-size: 40px;
+}
+.main-menu-container{
+  
+    background: rgba(202,189,255,1);
+background: -moz-linear-gradient(left, rgba(202,189,255,1) 0%, rgba(61,31,255,1) 28%, rgba(61,31,255,1) 59%, rgba(61,31,255,1) 75%, rgba(209,199,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(202,189,255,1)), color-stop(28%, rgba(61,31,255,1)), color-stop(59%, rgba(61,31,255,1)), color-stop(75%, rgba(61,31,255,1)), color-stop(100%, rgba(209,199,255,1)));
+background: -webkit-linear-gradient(left, rgba(202,189,255,1) 0%, rgba(61,31,255,1) 28%, rgba(61,31,255,1) 59%, rgba(61,31,255,1) 75%, rgba(209,199,255,1) 100%);
+background: -o-linear-gradient(left, rgba(202,189,255,1) 0%, rgba(61,31,255,1) 28%, rgba(61,31,255,1) 59%, rgba(61,31,255,1) 75%, rgba(209,199,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(202,189,255,1) 0%, rgba(61,31,255,1) 28%, rgba(61,31,255,1) 59%, rgba(61,31,255,1) 75%, rgba(209,199,255,1) 100%);
+background: linear-gradient(to right, rgba(202,189,255,1) 0%, rgba(61,31,255,1) 28%, rgba(61,31,255,1) 59%, rgba(61,31,255,1) 75%, rgba(209,199,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cabdff', endColorstr='#d1c7ff', GradientType=1 );
+/*    ez is kell ahhoz hogy a main-menu kozepen legyen */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-menu{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+}
+.main-menu-item{
+    display: inline-block;
+    padding: 20px 10px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    
+}
