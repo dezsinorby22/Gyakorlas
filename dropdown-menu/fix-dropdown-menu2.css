@@ -31,6 +31,7 @@ main{
 /*    padding-margin elso ertek alul-felul a masodik jobbra-balra*/
 
     margin: 0 auto;
+    border-radius: 50px;
 }
 footer{
     background-color: blue;
@@ -38,7 +39,7 @@ footer{
     text-align: center;
     padding-top: 10px;
     height: 25px;
-    
+    border-radius: 50px;
 }
 h1{
     font-size: 40px;
@@ -56,6 +57,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cabdff', end
 /*    ez is kell ahhoz hogy a main-menu kozepen legyen */
     text-align: center;
     margin-bottom: 40px;
+    border-radius: 300px;
 }
 
 .main-menu{
@@ -63,12 +65,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cabdff', end
     padding: 0;
     margin: 0 auto;
     width: 90%;
+    border-radius: 300px ;
 }
 .main-menu-item{
     display: inline-block;
-    padding: 20px 10px;
+    padding: 20px 20px;
     height: 50px;
     background-color: blue;
     color: white;
-    
+  border-radius: 300px;
+    padding-bottom: 2px;
+    padding-top: 30px
 }
