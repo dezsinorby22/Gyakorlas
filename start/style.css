@@ -25,22 +25,19 @@ header, main {
 
 /* jobbra igazitva */
 .menu-container{
-   display: inline-block;
-    
-
+    float: right;
 }
 
 .menu {
     list-style: none;
 }
 .menu-item {
-display: inline-block;
-padding: 10px 20px;
-
+    display: inline-block;
+    margin-top: 35px;
+    padding: 0 25px;
 }
 .menu-item:nth-child(1) {
     border-bottom: 4px solid red;
-    
 }
 
 .menu-item:nth-child(2) {
@@ -70,6 +67,7 @@ padding: 10px 20px;
 
 .main-article {
     margin-top: 40px;
+    position: relative;
 }
 
 .main-article-content > h1 {
@@ -93,13 +91,20 @@ padding: 10px 20px;
 
 .main-article-image {
     width: 100%;
+    
 }
 
 /* positioning!!!!! */
 .main-article {
 }
-
+.corp
+{
+    position: relative;
+}
 .main-article-content {
+    position: absolute;
+    top: 270px;
+    margin-left: 10px;
 }
 
 .tag a{
@@ -109,7 +114,6 @@ padding: 10px 20px;
 
 .tag-politics a {
     background-color: red;
-    text-decoration: none;
 }
 
 .tag-sports a {
@@ -121,17 +125,29 @@ padding: 10px 20px;
 .continue-to-article{
     background-color: blue;
     color: white;
-   float: right;
- 
-    
-   
-    
-    
+    margin-top: -32px;
 }
 .continue-to-article a {
     color: white;
+    float: right;
+    background-color: blue;
+    position: absolute;
+    right: 0;
     text-decoration: none;
+    bottom: -12px;
+}
+.line
+{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    margin: 0 0;
+    width: 400px;
     
+}
+.line2
+{
+    margin-top: 0;
+    margin-bottom: 
 }
 
 .article-half-width {
@@ -159,30 +175,9 @@ padding: 10px 20px;
 
 /* jobra */
 .article-right {
-    
-   
-    
+    float: right;
 }
 /* balra */
 .article-left {
-    float: right;
-    
-    
-}
-.article-left2{
-    float: right;
-    
-    
- 
-}
-.article-right2
-{
-    float: left
-}
-.check
-{
-    padding: 20px 20px;
-    background-color: black;
-    color: white;
-    margin-bottom: 200p
+    float: left;
 }
