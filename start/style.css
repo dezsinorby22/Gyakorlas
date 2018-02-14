@@ -105,6 +105,7 @@ header, main {
     position: absolute;
     top: 270px;
     margin-left: 10px;
+    margin-top: 50px;
 }
 
 .tag a{
@@ -114,6 +115,7 @@ header, main {
 
 .tag-politics a {
     background-color: red;
+    text-decoration: none
 }
 
 .tag-sports a {
@@ -141,7 +143,7 @@ header, main {
     background-color: rgba(0, 0, 0, 0.767);
     color: white;
     margin: 0 0;
-    width: 400px;
+   width: 400px;
     
 }
 .line2
@@ -176,8 +178,10 @@ header, main {
 /* jobra */
 .article-right {
     float: right;
+    padding: 10px;
 }
 /* balra */
 .article-left {
     float: left;
+    padding: 10px;
 }
